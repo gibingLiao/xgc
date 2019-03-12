@@ -22,5 +22,7 @@ Page({
     console.log(e);
     var index = e.currentTarget.dataset.index;
     console.log(index);
-  }
+  },
+  
+  aaa: function(){}
 })
