@@ -1,0 +1,26 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='itme-list'>
+  <view class='item-pro' wx:for="{{proList}}" bindtap='toDetail' data-index='{{index}}'>
+    <image class='pro-logo' src='{{item.logo}}'></image>
+    <view class='pro-body'>
+      <view class='pro-title'>{{item.title}}</view>
+      <text class='pro-des'>{{item.desc}}</text>
+      <view class='pro-footer'>
+        <image class='btn-detail' src='https://dpic.tiankong.com/ah/1p/QJ9107519778.jpg'></image>
+
+        <button open-type="contact" class='btn-ask'>
+          <image src='https://dpic.tiankong.com/ff/cc/QJ8135089284.jpg' />
+        </button>
+
+
+      </view>
+    </view>
+  </view>
+</view>
