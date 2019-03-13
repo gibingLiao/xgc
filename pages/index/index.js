@@ -29,5 +29,6 @@ Page({
 
   test:function(){
     console.log('aa');
-  }
+  },
+  test2:function(){}
 })
