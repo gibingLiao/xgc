@@ -24,5 +24,6 @@ Page({
     console.log(index);
   },
   
-  aaa: function(){}
+  aaa: function(){},
+  bbb:function(){}
 })
