@@ -25,5 +25,9 @@ Page({
   },
   
   aaa: function(){},
-  bbb:function(){}
+  bbb:function(){},
+
+  test:function(){
+    console.log('aa');
+  }
 })
